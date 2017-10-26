@@ -1,0 +1,274 @@
+.banner .container-fluid .row .pc-banner {
+  position: relative;
+  height: 500px;
+  display: block;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../images/banner02-b.jpg');
+}
+.banner .container-fluid .row .pc-banner .text-left {
+  padding-top: 150px;
+  padding-bottom: 50px;
+  padding-right: 30px;
+  padding-left: 45px;
+}
+.banner .container-fluid .row .pc-banner .text-left h1 {
+  color: white;
+  font-size: 45px;
+  margin-bottom: 40px;
+}
+.banner .container-fluid .row .pc-banner .text-left h3 {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+.banner .container-fluid .row .pc-banner .text-left p {
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 200;
+  color: rgba(255, 255, 255, 0.9);
+}
+.banner .container-fluid .row .mb-banner {
+  height: 350px;
+  display: block;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../images/banner02-b-s.jpg');
+}
+.banner .container-fluid .row .mb-banner .text-left {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.banner .container-fluid .row .mb-banner .text-left h1 {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.banner .container-fluid .row .mb-banner .text-left h3 {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.banner .container-fluid .row .mb-banner .text-left p {
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 200;
+  color: #fff;
+}
+#team .description {
+  padding-top: 30px;
+}
+#team .description h2 {
+  margin-bottom: 30px;
+}
+#team .description p {
+  margin-bottom: 20px;
+}
+#team .description a {
+  margin-bottom: 20px;
+}
+#team .description .underline {
+  position: relative;
+  font-size: 20px;
+  max-width: 350px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+#team .description .underline .glyphicon {
+  position: relative;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#team .description .underline::before {
+  position: absolute;
+  content: "";
+  width: 150px;
+  height: 1px;
+  background-color: #777;
+  top: 50%;
+  left: 0;
+}
+#team .description .underline::after {
+  position: absolute;
+  content: "";
+  width: 150px;
+  height: 1px;
+  background-color: #777;
+  top: 50%;
+  right: 0;
+}
+#team .container .row div {
+  margin-bottom: 10px;
+}
+#team .container .row div .thumbnail .caption {
+  padding: 0 10px;
+}
+#team .container .row div .thumbnail .caption .text-left {
+  line-height: 25px;
+  text-indent: 2em;
+}
+#episode {
+  background-color: #eee;
+}
+#episode .description {
+  padding-top: 30px;
+}
+#episode .description h2 {
+  margin-bottom: 30px;
+}
+#episode .description p {
+  margin-bottom: 20px;
+}
+#episode .description a {
+  margin-bottom: 20px;
+}
+#episode .description .underline {
+  position: relative;
+  font-size: 20px;
+  max-width: 350px;
+  margin: auto;
+  margin-bottom: 30px;
+  color: #0099FF;
+}
+#episode .description .underline .glyphicon {
+  position: relative;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#episode .description .underline::before {
+  position: absolute;
+  content: "";
+  width: 150px;
+  height: 1px;
+  background-color: #777;
+  top: 50%;
+  left: 0;
+}
+#episode .description .underline::after {
+  position: absolute;
+  content: "";
+  width: 150px;
+  height: 1px;
+  background-color: #777;
+  top: 50%;
+  right: 0;
+}
+#episode .row {
+  padding-bottom: 30px;
+}
+#actor .container .row {
+  padding-bottom: 30px;
+}
+#actor .container .row .description {
+  padding-top: 30px;
+}
+#actor .container .row .description h2 {
+  margin-bottom: 30px;
+}
+#actor .container .row .description p {
+  margin-bottom: 20px;
+}
+#actor .container .row .description a {
+  margin-bottom: 20px;
+}
+#actor .container .row .description .underline {
+  position: relative;
+  font-size: 20px;
+  max-width: 350px;
+  margin: auto;
+  margin-bottom: 30px;
+  color: #0099FF;
+}
+#actor .container .row .description .underline .glyphicon {
+  position: relative;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#actor .container .row .description .underline::before {
+  position: absolute;
+  content: "";
+  width: 150px;
+  height: 1px;
+  background-color: #777;
+  top: 50%;
+  left: 0;
+}
+#actor .container .row .description .underline::after {
+  position: absolute;
+  content: "";
+  width: 150px;
+  height: 1px;
+  background-color: #777;
+  top: 50%;
+  right: 0;
+}
+#actor .container .row .role .text-center {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+#actor .container .row .role .text-center .text-left {
+  line-height: 25px;
+  margin-top: 30px;
+}
+#about {
+  background-color: #2a2730;
+  color: #99979c;
+}
+#about .container-fluid .row .contact {
+  margin-top: 20px;
+}
+#about .container-fluid .row .contact .img-circle {
+  margin-bottom: 20px;
+}
+#about .container-fluid .row .contact .author {
+  padding: 0 20px;
+}
+#about .container-fluid .row .contact .author h4 {
+  text-indent: -1.5em;
+  margin: 0 auto 30px;
+}
+#about .container-fluid .row .contact .author p {
+  text-indent: 2em;
+}
+#about .container-fluid .row .about {
+  padding-left: 20px;
+  margin-top: 20px;
+}
+#about .container-fluid .row .about a {
+  color: #99979c;
+}
+#about .container-fluid .row .about a:hover {
+  color: white;
+}
+#about .container-fluid .row .about address {
+  margin-top: 20px;
+}
+#about .container-fluid .row .about .fa-ul {
+  width: 100%;
+}
+#about .container-fluid .row .about .fa-ul li {
+  margin: 10px 0 10px;
+}
+#about .container-fluid .row .copyright {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}

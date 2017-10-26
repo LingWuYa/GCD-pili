@@ -3,12 +3,15 @@
 <head>
 	<meta charset="UTF-8">	
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <!--设置浏览的宽度 初始化比例为1-->
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
-      <title>霹雳布袋戏</title>
-	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.
-min.css">
+	<!--设置浏览的宽度 初始化比例为1-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+	<title>霹雳布袋戏</title>
+
+	<link rel="stylesheet" href="http://apps.bdimg.com/libs/fontawesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/fontawesome/4.5.0/css/font-awesome.min.css"/> -->
+	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<!-- 以下两个插件用于在IE8以及以下版本浏览器支持HTML5元素和媒体查询，如果不需要用可以移除 -->
       <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -16,18 +19,291 @@ min.css">
       <![endif]-->
 </head>
 <body>
-<!-- 巨幕部分 -->
-	<div class="jumbotron">
-	  <div class="container">
-	    <h1>霹雳布袋戏</h1>
-	    <p>1984-2017 闽南语 武侠/魔幻 口白/诗号</p>
-	    <p>因每出剧名皆有“霹雳”二字得名，由“十车书”黄强华职司编剧、由“八音才子”黄文择统筹口白，剧情以霹雳三大主角清香白莲素还真、百世经纶一页书、刀狂剑痴叶小钗作为主线而衍生发展的天下武林故事。霹雳系列从《霹雳金光》开始，到2017年最新上档的《霹雳天命之战祸邪神》已播出超过两千余集，为霹雳国际多媒体的主干布袋戏。</p>
-	  </div>
-	</div>		
+<!-- banner部分 -->
+<header class="banner">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="black">
+			  		<a href="#" class="pc-banner hidden-sm hidden-xs">
+			  			<div class="col-lg-7 col-md-10 col-sm-12 col-xs-12 text-left">
+			  				<h1>霹雳布袋戏</h1>
+			  				<h3>1984-2017 闽南语 武侠/魔幻 口白/诗号</h3>
+			  				<p>因每出剧名皆有“霹雳”二字得名，剧情以武侠魔幻为主。</p>
+			  				<p>由“十车书”黄强华职司编剧，由“八音才子”黄文择统筹口白。</p>
+			  				<p>霹雳系列从《霹雳金光》开始，到2017年最新的《霹雳天命之战祸邪神》，已播出超过两千余集。</p>
+			  			</div>
+			  		</a>
+			    		<a href="#" class="mb-banner hidden-lg hidden-md">
+			  			<div class="col-lg-7 col-md-10 col-sm-12 col-xs-12 text-left">
+			  				<h1>霹雳布袋戏</h1>
+			  				<h3>1984-2017 闽南语 武侠/魔幻 口白/诗号</h3>
+			  				<p>因每出剧名皆有“霹雳”二字得名，剧情以武侠魔幻为主。</p>
+			  				<p>由“十车书”黄强华职司编剧，由“八音才子”黄文择统筹口白。</p>
+			  				<p>霹雳系列从《霹雳金光》开始，至今已播出超过两千余集。</p>
+			  			</div>
+			    		</a>
+			</div>
+		</div>
+	</div>
+</header>
+	
+<!-- 导航条 -->
+<nav class="navbar navbar-inverse" id="navigation" style="border-radius:0px;">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><i class="fa fa-home fa-lg" aria-hidden="true"></i>霹雳布袋戏</a>
+    </div>
 
-	<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
-	<script src="../js/jquery-min-1.11.3.js"></script>
-	<script src="../js/bootstrap.min.js"></script>
-	<script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <!-- <ul class="nav navbar-nav">
+        <li class="active"><a href="#">首页 <span class="sr-only">(current)</span></a></li>
+        
+      </ul> -->
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#">首页 <span class="sr-only">(current)</span></a></li>
+        <li><a href="#team">主创</a></li>
+        <li><a href="#episode">剧集</a></li>
+        <li><a href="#actor">角色</a></li>
+        <li><a href="#about">关于</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!-- 主创部分 -->
+<section id="team">
+  	<div class="description text-center">
+  		<h2>主创团队</h2>
+  		<!-- <span class="glyphicon glyphicon-film"> -->
+  		<p>幕后的灵魂塑造者</p>
+  		<p>霹雳是一个非常宏大的世界，霹雳公司是一个大组织 </p>
+  		<p>幕后人员千千万，只选经典的。</p>
+  		<a href="#" class="btn btn-default">霹雳团队介绍</a>
+	  	<div class="underline">
+	  		<i class="glyphicon glyphicon-user text-primary"></i>
+	  	</div>
+    </div>
+    <div class="container">
+    	<div class="row">
+    	  <div class="col-xs-12 col-sm-6 col-md-3">
+    	    <div class="thumbnail text-center">
+    	      <a href="#"><img src="images/hqh-b.jpg" alt="..." class=" img-impresive"></a>
+    	      <div class="caption">
+    	        <h4>黄强华</h4>
+    	        <p class="text-left">霹雳国际董事长。开创剧情诡谲多变，与时俱进，结合科技与传统的霹雳布袋戏，将霹雳逐步推向国际、世界的舞台上。主导霹雳剧情、牵动观众情绪者，正是有十车书美名的黄董，他以丰富的想像力，贯穿传统戏文，又将国学的精华，信手拈来，创造出炫目的霹雳武侠世界。</p>
+    	        <p><a href="https://www.bilibili.com/video/av3596479/" class="btn btn-default btn-primary" role="button">节目介绍</a></p>
+    	      </div>
+    	    </div>
+    	  </div>
+    	  <div class="col-xs-12 col-sm-6 col-md-3">
+    	    <div class="thumbnail text-center">
+    	      <a href="#"><img src="images/hwz-b.jpg" alt="..." class="img-impresive"></a>
+    	      <div class="caption">
+    	        <h4>黄文泽</h4>
+    	        <p class="text-left">素有八音才子美称，是当前布袋戏配音界的第一把交椅。秉持着台湾布袋戏的传统，闽南语版所有角色皆由黄文择独立配音，他丰富的声音表演不只赋予戏偶生命力，一气呵成的表演方式更是动人，多年来吸引戏迷无数，连国外优秀的专业配音演员也都赞叹不已。</p>
+    	        <p><a href="https://www.bilibili.com/video/av10339436/" class="btn btn-default btn-primary" role="button">配音试听</a></p>
+    	      </div>
+    	    </div>
+    	  </div>
+    	  <div class="col-xs-12 col-sm-6 col-md-3">
+    	    <div class="thumbnail text-center">
+    	      <a href="#"><img src="images/al-b.jpg" alt="..." class="img-impresive"></a>
+    	      <div class="caption">
+    	        <h4>阿轮</h4>
+    	        <p class="text-left">从事布袋戏音乐创作至今，阿轮倾全力完成无数布袋戏剧集主题曲、演唱歌曲、角色音乐等高难度创作，累计创作乐曲将近500首音乐，作词、作曲、许多作品已经成为经典，而多首演唱歌曲也已被流行歌手翻唱。另外，阿轮也持续词曲的创作，作品也广为许多艺人所演唱。</p>
+    	        <p><a href="http://music.163.com/#/playlist?id=629391067" class="btn btn-default btn-primary" role="button">霹雳音乐</a></p>
+    	      </div>
+    	    </div>
+    	  </div>
+    	  <div class="col-xs-12 col-sm-6 col-md-3">
+    	    <div class="thumbnail text-center">
+    	      <a href="#"><img src="images/ms-b.jpg" alt="..." class="img-impresive"></a>
+    	      <div class="caption">
+    	        <h4>猫叔</h4>
+    	        <p class="text-left">在木偶的世界当中，木偶本是不会动的，赋予木偶生命力的，正是操偶师，木偶的喜怒哀乐，一颦一笑，文戏武戏皆出自他们之手。猫叔乃霹雳资深操偶师，与剧中角色相比，猫叔的粉丝可也不少。萌萌哒猫叔入驻微博后更是显露萌叔本性，时常化身"点赞狂魔"。</p>
+    	        <p><a href="https://www.bilibili.com/video/av14045380/" class="btn btn-default btn-primary" role="button">了解操偶</a></p>
+    	      </div>
+    	    </div>
+    	  </div>
+    	</div>
+    </div>
+</section>
+<!-- 剧集部分 -->
+<section id="episode">
+ <div class="description text-center">
+		<h2>入门剧集</h2>
+		<!-- <span class="glyphicon glyphicon-film"> -->
+		<p>霹雳系列剧集近70部</p>
+		<p>浩如烟海的剧集 小萌新该如何入手</p>
+		<p>推荐入门：九皇座/霹雳剑踪/刀龙传说/刀剑春秋/战祸邪神（最新）/东离剑游纪</p>
+		<a href="http://drama.pili.com.tw/" class="btn btn-default">完整剧集一览</a>
+	    <div class="underline">
+	    	<i class="glyphicon glyphicon-film text-primary"></i>
+	    </div>
+	    <!-- <hr width="20%"> -->
+ </div>
+ <div class="row">
+	  <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2">
+	    <a href="http://list.youku.com/show/id_z2ded45c6b68111e0a046.html" class="thumbnail">
+	      <img src="images/01pl-jhz.jpg" alt="霹雳九皇座" title="霹雳九皇座">
+	    </a>
+	  </div>
+	  <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2">
+	    <a href="http://list.youku.com/show/id_z33dae4eab68411e0a046.html" class="thumbnail">
+	      <img src="images/02pl-jz.jpg" alt="霹雳剑踪" title="霹雳剑踪">
+	    </a>
+	  </div>
+	  <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2">
+	    <a href="http://list.youku.com/show/id_z9945f912b69011e0a046.html" class="thumbnail">
+	      <img src="images/03pl-dlcs.jpg" alt="霹雳震寰宇之刀龙传说" title="霹雳震寰宇之刀龙传说">
+	    </a>
+	  </div>
+	  <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2">
+	    <a href="http://list.youku.com/show/id_z854fc64010ee11e2b16f.html" class="thumbnail">
+	      <img src="images/04pl-jhzdjcq.jpg" alt="霹雳惊鸿之刀剑春秋" title="霹雳惊鸿之刀剑春秋">
+	    </a>
+	  </div>
+	  <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2">
+	    <a href="http://bangumi.bilibili.com/anime/6490" class="thumbnail">
+	      <img src="images/05pl-tmzzhxs.jpg" alt="霹雳天命之战祸邪神" title="霹雳天命之战祸邪神">
+	    </a>
+	  </div>
+	  <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2">
+	    <a href="http://bangumi.bilibili.com/anime/5064" class="thumbnail">
+	      <img src="images/06jyj.jpg" alt="东离剑游纪" title="东离剑游纪">
+	    </a>
+	  </div>
+ </div>
+</section>
+<!-- 角色部分 -->
+<section id="actor">
+ <div class="container">
+	<div class="row">
+		 <div class="description text-center">
+			<h2>角色介绍</h2>
+			<!-- <span class="glyphicon glyphicon-film"> -->
+			<p>霹雳世界芸芸众生</p>
+			<p>不要害怕本命、墙头领了便当，霹雳处处是墙头 </p>
+			<p>虽说如此，霹雳三台柱、热门角色不妨先了解一下。</p>
+			<a href="http://drama.pili.com.tw/role/" class="btn btn-default">更多人物介绍</a>
+		    <div class="underline">
+		    	<i class="glyphicon glyphicon-picture text-primary"></i>
+		    </div>
+	     </div>
+		<div class="row role">
+			<div class="col-md-5 col-md-offset-1 col-xs-12">
+				<a href="#" class="shz thumbnail"><img src="images/actor-shz.jpg" alt="素还真" title="素还真" onmouseover="this.src='images/actor-shz.gif'" onmouseout="this.src='images/actor-shz.jpg'"></a>
+				
+			</div>
+			<div class="col-md-5 col-xs-12 text-center">
+				<h3>素还真</h3>
+				<p>半神半圣亦半仙，全儒全道是全贤。</p>
+				<p>脑中真书藏万卷，掌握文武半边天。</p>
+				<p>一个素还真还没倒下，另一个素还真就起来了。</p>
+			</div>
+		</div>
+		<div class="row role">
+			<div class="col-md-5 col-sm-push-6 col-xs-12">
+				<a href="#" class="thumbnail"><img src="images/actor-yys.jpg" alt="一页书" title="一页书" onmouseover="this.src='images/actor-yys.gif'" onmouseout="this.src='images/actor-yys.jpg'"></a>
+			</div>
+			<div class="col-md-5 col-md-offset-1 col-sm-pull-5 col-xs-12 text-center">
+				<h3>一页书</h3>
+				<p>世事如棋，乾坤莫测，笑尽英雄。</p>
+				<p>苦境暴力和尚，人称”百万大军”。</p>
+				<p>佛门高僧，但总被编剧安排”入魔“。</p>
+			</div>
+		</div>
+		<div class="row role">
+			<div class="col-md-5 col-md-offset-1 col-xs-12">
+				<a href="#" class="shz thumbnail"><img src="images/actor-yxc.jpg" alt="叶小钗" title="叶小钗" onmouseover="this.src='images/actor-yxc.gif'" onmouseout="this.src='images/actor-yxc.jpg'"></a>
+				
+			</div>
+			<div class="col-md-5 col-xs-12 text-center">
+				<h3>叶小钗</h3>
+				<p>踏尽千山无人识，当初枉受盛名牵。</p>
+				<p>东风吹醒英雄梦，笑对青山万重天。</p>
+				<p>不仅已婚，钗公的曾孙都有对象了，嗯。</p>
+			</div>
+		</div>
+		<div class="row role">
+			<div class="col-md-5 col-sm-push-6 col-xs-12">
+				<a href="#" class="thumbnail"><img src="images/actor-hyc.jpg" alt="寒烟翠" title="寒烟翠" onmouseover="this.src='images/actor-hyc.gif'" onmouseout="this.src='images/actor-hyc.jpg'"></a>
+			</div>
+			<div class="col-md-5 col-md-offset-1 col-sm-pull-5 col-xs-12 text-center">
+				<h3>寒烟翠</h3>
+				<p>问郎君，寂寞欢娱恨离别，杨柳芳菲，折来谁赠？</p>
+				<p>问郎君，春花秋月梦浮生，相思泪下，愁肠谁饮？</p>
+				<p>美到只能百合，可惜没成功。</p>
+			</div>
+		</div>
+		<div class="row role">
+			<div class="col-md-5 col-md-offset-1 col-xs-12">
+				<a href="#" class="shz thumbnail"><img src="images/actor-qls.jpg" alt="绮罗生" title="绮罗生" onmouseover="this.src='images/actor-qls.gif'" onmouseout="this.src='images/actor-qls.jpg'"></a>
+				
+			</div>
+			<div class="col-md-5 col-xs-12 text-center">
+				<h3>绮罗生</h3>
+				<p>百代繁华一朝都，谁非过客；</p>
+				<p>千秋明月吹角寒，花是主人。</p>
+				<p>剑术无双，喜欢纹身喝酒染头。</p>
+			</div>
+		</div>
+		<div class="row role">
+			<div class="col-md-5 col-sm-push-6 col-xs-12">
+				<a href="#" class="thumbnail"><img src="images/actor-c.jpg" alt="苍" title="苍" onmouseover="this.src='images/actor-c.gif'" onmouseout="this.src='images/actor-c.jpg'"></a>
+			</div>
+			<div class="col-md-5 col-md-offset-1 col-sm-pull-5 col-xs-12 text-center">
+				<h3>六弦之首·苍</h3>
+				<p>倚筝天波观浩渺，苍音掀涛洗星辰。</p>
+				<p>白虹贯日扫魔荡，明玥当空照古今。</p>
+				<p>正道栋梁，但人称"黑道大哥"。</p>
+			</div>
+		</div>
+	</div>
+ </div>
+</section>
+<!-- 关于网站 -->
+<footer id="about">
+ <div class="container-fluid">
+	<div class="row">
+		<div class="contact col-sm-5 col-sm-offset-1 col-sm-push-5 col-xs-12 text-center">
+			<a href="http://weibo.com/1742100694" alt="凌无涯微博" title="凌无涯微博"><img src="images/lwy.jpg" alt="凌无涯" class="img-circle"></a>
+			<div class="author">
+				<i class="fa fa-quote-left fa-2x pull-left"></i>
+				<h4>凌无涯</h4>
+				<p class="text-left">未来前端程序媛一枚，曾是广告狗，目前自学前端中，爱好广泛，但都比较泛，唯二真爱入坑已有五六年之久，其一便是霹雳，立志能接心爱的霹雳大偶回家。这份简单的'安利'网页日后会逐渐完善。盆友，你听说过霹雳吗？欢迎跳下来，我接着你。</p>
+				<i class="fa fa-quote-right fa-2x pull-right"></i>
+			</div>
+		</div>
+		<div class="about col-sm-5 col-sm-pull-5 col-xs-12">
+			<h4>网站说明</h4>
+			<p>本站图片及资料来源于霹雳布袋戏，网站仅作展示。</p>
+			<p>角色区截图与部分介绍梗源自网络，未知作者，如道友知悉，请联系我。</p>
+			<address>
+			<h4>联系方式</h4>
+				<p><i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i> email:<a href="mailto:478399567@qq.com">478399567@qq.com</a></p>
+				<p><i class="fa fa-github fa-fw" aria-hidden="true"></i> github:<a href="https://github.com/LingWuYa">https://github.com/LingWuYa</a></p>
+			</address>
+			<h4>相关链接</h4>
+			<ul class="fa-ul">
+				<li><i class="fa-li fa fa-weibo" aria-hidden="true"></i><a href="http://weibo.com/dapili">霹雳布袋戏</a></li>
+				<li><i class="fa-li fa fa-weibo" aria-hidden="true"></i><a href="http://weibo.com/u/5817454043">霹雳猫叔</a></li>
+				<li><i class="fa-li fa fa-link" aria-hidden="true"></i><a href="http://www.pili.com.tw/">霹雳布袋戏官网</a></li>
+				<li><i class="fa-li fa fa-link" aria-hidden="true"></i><a href="http://video.yaodaojiao.com/pili/">霹雳妖道角论坛</a></li>
+			</ul>
+		</div>
+		<div class="copyright col-xs-12 text-center">
+			© October.26th 2017 By LingWuYa, All Rights Reserved
+		</div>	
+	</div>
+ </div>
+</footer>
 </body>
 </html>
