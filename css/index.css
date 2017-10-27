@@ -1,5 +1,14 @@
-body {
-  overflow-x: hidden;
+@media screen and (min-width: 768px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+}
+@media screen and (max-width: 768px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
 }
 .banner .container-fluid .row .pc-banner {
   position: relative;
@@ -42,7 +51,7 @@ body {
 }
 .banner .container-fluid .row .mb-banner .text-left {
   padding-top: 50px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   padding-right: 30px;
   padding-left: 30px;
 }
